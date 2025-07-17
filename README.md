@@ -13,12 +13,12 @@ multimodal-rag-project
 │   ├── retriever
 │   │   ├── __init__.py
 │   │   └── pipeline.py
-│   ├── utils
+│   ├── llm_output
 │   │   ├── __init__.py
-│   │   └── helpers.py
+│   │   └── pipeline.py
 │   ├── main.py
-│   └── types
-│       └── index.py
+│   └── image_processing
+│       └── pipeline.py
 ├── requirements.txt
 └── README.md
 ```
@@ -56,10 +56,9 @@ pip install -r requirements.txt
    formatted_results = retriever_pipeline.format_results(results)
    ```
 
-## Contributing
+3. **LLM Output Generation**: Display the original charts/tables/images alongside the LLM's output
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+![New Result](asset/new_result.png)
+![Result Image](asset/result_image.png)
+![Result 2](asset/result2.png)
+![Result 2 Image](asset/result2_image.png)
