@@ -58,7 +58,16 @@ pip install -r requirements.txt
 
 3. **LLM Output Generation**: Display the original charts/tables/images alongside the LLM's output
 
+**Get both the LLM answer and the source images and texts that the model used**
+
 ![get both the LLM answer and the source images and texts that the model used!](asset/new_result.png)
+
+**source image**
 ![source image](asset/result_image.png)
+
+
+**Get both the LLM answer and the source images and texts that the model used**
 ![get both the LLM answer and the source images and texts that the model used!](asset/result2.png)
+
+**source image**
 ![source image](asset/result2_image.png)
